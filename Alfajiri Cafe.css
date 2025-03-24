@@ -1,0 +1,124 @@
+Body {
+    Font-family: ‘Segoe UI’;
+    Margin: 0;
+    Padding: 0;
+    Background: linear-gradient(45deg, #e0a66f, #e2b273); 
+    Color: #333;
+}
+
+Header {
+    Background-color: #f5f5dc; 
+    Color: #333;
+    Font-size: 1.7em;
+    Text-align: center;
+    Padding: 100px 20px;
+}
+
+Header h1 {
+    Font-size: 3.5em; 
+    Margin-bottom: 10px;
+    Color: #ff9800; 
+    Font-family: ‘Montserrat’ ; 
+    Font-weight: 700;
+    Letter-spacing: 1px;
+}
+
+.harmony {
+    Font-size: 2.5em;
+    Font-style: italic;
+    Font-weight: 700;
+    Color: #a0522d; 
+    Font-family: 'segoe script',cursive;
+}
+
+#menu {
+    Padding: 40px 20px;
+    Text-align: center;
+}
+
+#menu h2 {
+    Color: #d2691e; 
+    Margin-bottom: 20px;
+    font-weight: bolder;
+    font-family: 'Dancing Script', cursive;
+}
+
+Table {
+    Width: 80%;
+    Margin: 20px auto;
+    Border-collapse: collapse;
+    Background-color: rgba(255, 255, 255, 0.8); 
+    Box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    Border: 1px solid #ddd;
+}
+
+Th, td {
+    Padding: 15px;
+    Text-align: left;
+    Border-bottom: 1px solid #ddd;
+    Transition: transform 0.3s ease;
+}
+
+Th {
+    Background-color: #ffb05688;
+    Font-weight: bold;
+    font-family: Cochin; 
+}
+
+Td {
+    font-family: 'Lucida Sans';
+}
+
+Tr:hover td {
+    Transform: scale(1.02);
+}
+
+.breakfast {
+    Background: linear-gradient(to right, rgba(210, 180, 140, 0.5), rgba(255, 250, 205, 0.5)); 
+    Color: #813e0e; 
+}
+
+.lunch {
+    Background: linear-gradient(to right, rgba(160, 82, 45, 0.5), rgba(245, 222, 179, 0.5)); 
+    Color: #9b5717; 
+}
+
+.drinks {
+    Background: linear-gradient(to right, rgba(210, 105, 30, 0.5), rgba(250, 235, 215, 0.5)); 
+    Color: #e46912; 
+}
+
+#contact {
+    Padding: 40px 20px;
+    Text-align: center;
+    background-color: peru;
+}
+
+#contact h2 {
+    Color: #d2691e;
+    Margin-bottom: 10px;
+    Border-bottom: 2px solid #d2691e;
+    Padding-bottom: 5px;
+    display: inline-block;
+    font-weight: bolder;
+    font-family: 'lobster',cursive;
+}
+
+.map-link, .contact-link {
+    Color: #007bff;
+    Text-decoration: none;
+    Font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    Transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+.map-link:hover, .contact-link:hover {
+    Color: #0056b3;
+    Text-decoration: underline;
+    te
+}
+
+.opening {
+    Font-size: 1.3em;
+    Font-weight: bold;
+}
